@@ -11,7 +11,9 @@ export default {
     (Story) => (
       <div className="flex items-center gap-2">
         <Story></Story>
-        <Text>Lembrar de mim por 30 dias</Text>
+        <Text>
+          <label>Lembrar de mim por 30 dias</label>
+        </Text>
       </div>
     ),
   ],
